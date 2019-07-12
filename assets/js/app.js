@@ -59,7 +59,7 @@ var aboutMe = document.getElementsByClassName('aboutMe');
 
 var aboutMeGradAnim = document.getElementsByClassName('aboutMeGradAnim');
 function aboutMeFun() {
-   if(window.innerHeight / 100 * 50 > aboutMe[0].getBoundingClientRect().top){
+   if(window.innerHeight / 100 * 20 > aboutMe[0].getBoundingClientRect().top){
      aboutMeGradAnim[0].style.bottom = '-200%';
    }
 }
@@ -71,7 +71,7 @@ var overlayDiv = document.getElementsByClassName('aboutMe');
 var overlayAnimGrad = document.getElementsByClassName('overlayAnimGrad');
 
 function overlayDivAnimFun() {
-  if(window.innerHeight / 100 * 50 > overlayDiv[0].getBoundingClientRect().top){
+  if(window.innerHeight / 100 * 20 > overlayDiv[0].getBoundingClientRect().top){
     overlayAnimGrad[0].style.bottom = '-200%';
   }
 }
