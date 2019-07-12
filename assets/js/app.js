@@ -56,11 +56,13 @@ for (var i = 0; i < imgHolder.length; i++) {
 
 // new about me
 var aboutMe = document.getElementsByClassName('aboutMe');
+var aboutMeText = document.getElementsByClassName('aboutMeText');
 
 var aboutMeGradAnim = document.getElementsByClassName('aboutMeGradAnim');
 function aboutMeFun() {
    if(window.innerHeight / 100 * 20 > aboutMe[0].getBoundingClientRect().top){
      aboutMeGradAnim[0].style.bottom = '-200%';
+     aboutMeText[0].style.left = '-4vw';
    }
 }
 

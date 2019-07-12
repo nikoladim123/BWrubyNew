@@ -393,6 +393,7 @@ main{
   left: 0vw;
   margin: 0;
   transition: 1.5s;
+  transition-delay: 0.5s;
 }
 .aboutMeanimContainer{
   position: absolute;
