@@ -354,8 +354,8 @@ window.addEventListener("scroll",()=>{
   // workTextFixScroll();
   davidOmidFire();
   davidOmid();
-  flowersParalaxFun();
-  ringsFun();
+  // flowersParalaxFun();
+  // ringsFun();
   aboutMeFun();
   overlayDivAnimFun();
   // cheapFun();
